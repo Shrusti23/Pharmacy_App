@@ -17,13 +17,13 @@ import users from "../Screens/users";
 import Help_Support from "./Help_support";
 import Customers from "./Customers";
 import Earnings from "./Earnings";
-import Deactivate from "../Tabs/Account_screen/Account_tabs/Deactivate";
-import Get_alert from "../Tabs/Account_screen/Account_tabs/Get_alert";
-import Two_factor from "../Tabs/Account_screen/Account_tabs/Two_factor";
-import Delete from "../Tabs/Account_screen/Account_tabs/Delete";
-import Deactivate_Account from "../Tabs/Account_screen/Account_tabs/Deactivate-Account";
-import Password from "../Tabs/Account_screen/Account_tabs/Password";
-import Change_password from "../Tabs/Account_screen/Change_password";
+import Deactivate from "../Tabs/Account_screens/Account_tabs/Deactivate";
+import Get_alert from "../Tabs/Account_screens/Account_tabs/Get_alert";
+import Two_factor from "../Tabs/Account_screens/Account_tabs/Two_factor";
+import Delete from "../Tabs/Account_screens/Account_tabs/Delete";
+import Deactivate_Account from "../Tabs/Account_screens/Account_tabs/Deactivate-Account";
+import Password from "../Tabs/Account_screens/Account_tabs/Password";
+import Change_password from "../Tabs/Account_screens/Change_password";
 import WelcomeScreen from "../InitialScreens/WelcomeScreen"; 
 import { TextInput } from 'react-native-gesture-handler';
 const Drawer = createDrawerNavigator();
@@ -232,7 +232,7 @@ render() {
           options={({ navigation }) => ({
             drawerLabel: "Log Out",
             drawerIcon: () => (
-              <View style={styles.Screen}>
+              <View >
                 <Button
                   buttonStyle={{ backgroundColor: "white"}}
                   onPress={signout}

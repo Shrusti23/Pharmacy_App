@@ -4,10 +4,10 @@ import { View, Text, StyleSheet, TouchableOpacity,Image } from "react-native";
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 
 const Tab = createMaterialTopTabNavigator();
-import Account from "../Tabs/Account_screen/Account";
-import StoreDetails from "../Tabs/Account_screen/Store_details";
-import InsuranceAcceptance from "../Tabs/Account_screen/Insurance";
-import MedisendSupplies from "../Tabs/Account_screen/packaging";
+import Account from "../Tabs/Account_screens/Account";
+import StoreDetails from "../Tabs/Account_screens/Store_details";
+import InsuranceAcceptance from "../Tabs/Account_screens/Insurance";
+import MedisendSupplies from "../Tabs/Account_screens/packaging";
 
 export default function users() {
     return (

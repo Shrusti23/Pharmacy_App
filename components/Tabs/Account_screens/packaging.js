@@ -7,8 +7,7 @@ export default function MedisendSupplies() {
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor:"white" }}>
         <View style={styles.header}>
           <Text style={{ fontSize:20,fontFamily:"Amiko-Regular", fontWeight:"bold",marginBottom:"3%"}}>Restock Medisend Packaging</Text>
-        <Text style={{fontSize:15,fontFamily:"Amiko-Regular", fontWeight:"600",color:"#9C9EA3"}}>Medisend’s packaging ensures the protection of the customer’s information.</Text>
-        <Text style={{fontSize:15,fontFamily:"Amiko-Regular", fontWeight:"600", color:"#9C9EA3"}}> Request supplies to make sure you never run out and Medisend will send it to you, free of charge.</Text>
+        
         </View>
         <Image
               source={require("../../../assets/packaging.png")}

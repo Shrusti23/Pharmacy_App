@@ -12,9 +12,9 @@ export default function App() {
 
 
   let [fontsLoaded] = useFonts({
-    "Amiko-Bold": require("./assets/fonts/Amiko-Bold.ttf"),
-    "Amiko-Regular": require("./assets/fonts/Amiko-Regular.ttf"),
-    "Amiko-SemiBold": require("./assets/fonts/Amiko-SemiBold.ttf"),
+    "Amiko-Bold": require("./Assets/Font/Amiko-Bold.ttf"),
+    "Amiko-Regular": require("./Assets/Font/Amiko-Regular.ttf"),
+    "Amiko-SemiBold": require("./Assets/Font/Amiko-SemiBold.ttf"),
   });
 
   if (!fontsLoaded) {

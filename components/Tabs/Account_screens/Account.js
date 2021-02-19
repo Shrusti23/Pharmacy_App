@@ -6,7 +6,6 @@ import { View, Text, StyleSheet, TouchableOpacity,Image,Switch } from "react-nat
 import { useNavigation } from "@react-navigation/native";
 import UserAvatar from 'react-native-user-avatar';
 
-import Change_password from "./Change_password";
 // Shopping Cart Screen
 export default function Account() {
   const navigation = useNavigation();
