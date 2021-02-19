@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ScrollView } from "react-native";
 import { View, Text, StyleSheet, TouchableOpacity,Image } from "react-native";
-
+//supllies refill
 export default function MedisendSupplies() {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor:"white" }}>
